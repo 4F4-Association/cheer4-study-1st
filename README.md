@@ -15,8 +15,8 @@
   - Restful API
 - 브라우저
 - Git
-- CSS
 - HTML
+- CSS
 - Javascript
 - typescript
 - React
