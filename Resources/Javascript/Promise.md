@@ -9,6 +9,6 @@ Promise는 <code>new Promise()</code>로 생성할 수 있다. Promise 객체는
 2) 이행(fulfilled) : <code>resolve</code>가 실행된 상태로 Promise가 성공적으로 진행된 상태를 의미한다.
 3) 거부(rejected) : <code>reject</code>가 실행된 상태로 Promise 실행에 오류가 발생한 상태를 의미한다.
 
-Promise가 <code>fulfilled</code>인지 <code>rejected</code>인지에 따라 메소드를 이용해 다른 후속 조치를 취할 수 있다. 이 메소드는 체이닝이 가능해 연이어 사용이 가능하다.<br/>
+Promise가 <code>fulfilled</code>인지 <code>rejected</code>인지에 따라 메소드를 이용해 다른 후속 조치를 취할 수 있다. 이 메소드는 체이닝이 가능해 연이어 사용할 수 있다.<br/>
 1) <code>then</code> : <code>fulfilled</code>일 때 Promise에서 성공적으로 받아낸 결과값을 도출해내고 추후 동작을 추가할 수 있는 메소드다.
 2) <code>catch</code> : 이름 그대로 오류를 잡아내는 메소드로 <code>rejected</code>일 때 추후 동작을 추가할 수 있는 메소드다.
